@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/firstNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input first number"
+        android:inputType="numberDecimal"
+        android:background="@android:color/transparent"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/secondNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input second number"
+        android:inputType="numberDecimal"
+        android:background="@android:color/transparent"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/additionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Numbers"/>
+
+    <Button
+        android:id="@+id/subtractionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtract Numbers"/>
+
+    <TextView
+        android:id="@+id/displayResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result here"
+        android:textSize="24sp"/>
+
+</LinearLayout>
